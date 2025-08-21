@@ -20,6 +20,10 @@ const resume = database_1.default.define('resumes', {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false
     },
+    template_type: {
+        type: sequelize_1.DataTypes.STRING,
+        allowNull: false
+    },
     content: {
         type: sequelize_1.DataTypes.JSONB,
         allowNull: false
